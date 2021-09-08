@@ -10,10 +10,7 @@ input_number4 = float(input("Enter the fourth number: "))
 
 array_float = arr.array('f',[0,1,2,3])
 
-array_float[0] = input_number1
-array_float[1] = input_number2
-array_float[2] = input_number3
-array_float[3] = input_number4
+array_float = [input_number1,input_number2,input_number3,input_number4]
 
 input_method = input("Which method would you like, A or B: ")
 #method A is what I devised, a simple array iteration to compare numbers
